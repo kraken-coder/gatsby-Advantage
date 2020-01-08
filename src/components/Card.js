@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 const Card = props => {
   return (
     <div className="card" style={{
-        width: '30%'
+        width: '100%'
     }}>
       <img src={props.img} className="card-img-top" alt="card_img" />
       <div className="card-body">
